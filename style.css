@@ -1,0 +1,55 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+   
+    font-family: 'Montserrat', sans-serif;
+  
+}
+
+.wrapper{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: #191919;
+    color:#ffff;
+
+}
+.clock{
+    padding: 1rem;
+}
+.titel{
+    font-size: 50px;
+    text-shadow: 4px 3px #424242;
+    font-weight: 800;
+    margin-bottom: 3rem;
+    text-align: center;
+}
+.block{
+    background: #212121;
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+    padding: 2.5rem 4rem;
+    box-shadow: 7px 7px 8px 2px rgb(0 0 0);
+    border-radius: 5px;
+}
+.block h2{
+    font-size: 60px;
+    font-weight: 700;
+}
+.block p{
+    font-size: 12px;
+    color: #ffff;
+    opacity: 0.4;
+}  
+@media ( max-width: 720){
+    .row{
+      padding: 50px;
+    }
+    
+}
